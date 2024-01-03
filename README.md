@@ -10,30 +10,21 @@ Intialize the matrix Q and u
 ## step 2:
 The vector u and e is given by
 
-    ![eqn1](./ex4.jpg)
-
-    ![eqn2](./ex6.jpg)
-
-    ![eqn3](./ex3.jpg)
-
 ## step 3:
 Obtain the Q matrix   
-    ![eqn4](./ex1.jpg)
+
 ## step 4:
 Construct the upper triangular matrix R
-    ![eqn5](./ex2.jpg)
-
-
 
 ## Program:
- 
 
 ### Gram-Schmidt Method
 ```
+\*
 Program to QR decomposition using the Gram-Schmidt method
 Developed by: your name:ajina joshpin
-RegisterNumber: 23013547
-'''
+RegisterNumber: 21222320008
+\*
 import numpy as np
 def QR_Decomposition(A):
      n,m=A.shape
@@ -63,10 +54,8 @@ QR_Decomposition(a)
 ```
 
 ## Output
-```
-![image](https://github.com/ajinajoshpin/QRdecomposition/assets/148514578/3e340868-2686-4710-9e27-111eb9ab88d2)
+![Screenshot 2024-01-03 044305](https://github.com/ajinajoshpin/QRdecomposition/assets/148514578/8427786f-7f12-4bd1-ad47-bd7e57dd9920)
 
-```
 
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
